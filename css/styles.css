@@ -7,6 +7,53 @@
     font-family: "Azeret Mono", monospace;
 }
 
+/* ========= reuse css code ============= */
+.text-primary {
+    color: rgba(13, 19, 33, 1);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.7;
+}
+
+section {
+    margin: 80px 130px;
+    /* padding: 80px 152px; */
+}
+.section-header {
+    max-width: 850px;
+    text-align: center;
+    margin: 0 auto;
+}
+.section-title {
+    color: rgba(13, 19, 33, 1);
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 100%;
+    margin-bottom: 20px;
+}
+
+.btn-primary {
+    padding: 21px 24px;
+    border-radius: 8px;
+    background: rgba(13, 19, 33, 1);
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.btn-secondary{
+    width: 171px;
+    height: 47px;
+    padding: 12px 20px 12px 20px;
+    border: 1px solid rgba(13, 19, 33, 1);
+    opacity: 0.7;
+    margin-top: 28px;
+    cursor: pointer;
+}
+
+/* ============ header section ======== */
 header {
     /* max-width: 1440px; */
     height: 664px;
@@ -19,7 +66,7 @@ header {
 }
 
 .banner {
-    padding: 272px 230px;
+    max-width: 990px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -32,48 +79,12 @@ header {
     font-weight: 600;
     line-height: 68px;
 }
-.text-primary {
-    color: rgba(13, 19, 33, 1);
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 26px;
-    opacity: 0.7;
-}
-.btn-primary {
-    padding: 21px 24px;
-    border-radius: 8px;
-    background: rgba(13, 19, 33, 1);
-    color: white;
-    font-size: 20px;
-    font-weight: 400;
-}
 
-section {
-    margin: 75px 90px;
-    padding: 80px 152px;
-}
-.section-title {
-    color: rgba(13, 19, 33, 1);
-    font-size: 32px;
-    font-weight: 500;
-    line-height: 100%;
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-.why-development {
-    border-radius: 16px;
+/* ======== Why development section ========== */
+#why-development {
     background: rgba(13, 19, 33, 0.02);
-}
-
-.section-text {
-    color: rgba(13, 19, 33, 1);
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 26px;
-    opacity: 0.7;
-    text-align: center;
-    margin-bottom: 20px;
+    padding: 80px 152px;
+    border-radius: 16px;
 }
 .development-items{
     margin-top: 50px;
@@ -87,7 +98,6 @@ section {
     padding: 50px 0px;
     border-radius: 16px;
 }
-
 .item-2 {
     background: linear-gradient(270deg, rgba(255, 255, 255, 1),rgba(255, 255, 255, 0) 100%);
 }
@@ -102,16 +112,22 @@ section {
     line-height: 36px;
     margin-bottom: 16px;
 }
-.btn-secondary{
-    width: 171px;
-    height: 47px;
-    padding: 12px 20px 12px 20px;
-    border: 1px solid rgba(13, 19, 33, 1);
-    opacity: 0.7;
-    margin-top: 28px;
-    cursor: pointer;
-}
 .item-img {
     max-width: 280px;
     width: 100%;
+}
+
+
+/* ========= my-inspiration =========== */
+
+.section-content {
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    height: 600px;
+    margin-top: 48px;
+    padding: 24px;
+}
+
+.section-content iframe {
+    border-radius: 16px;
 }
